@@ -1,0 +1,45 @@
+.box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+    width: 600px;
+    height: 420px;
+    background: none;
+    border: 1px solid black;
+}
+.top{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 120px;
+    height: 120px;
+    background: #9BF7FF;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    border-radius: 10%;
+}
+
+.left {
+    position: absolute;
+    bottom: 25%;
+    left: 27%;
+    width: 120px;
+    height: 120px;
+    background: #FFF32A;
+    border: 1px solid black;
+    transform: rotate(20deg);
+    border-radius: 10%;
+}
+
+.right{
+    position: absolute;
+    bottom: 25%;
+    right: 27%;
+    width: 120px;
+    height: 120px;
+    background: #E61260;
+    border: 1px solid black;
+    transform: rotate(70deg);
+    border-radius: 10%;
+}
